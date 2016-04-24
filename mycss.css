@@ -5,3 +5,23 @@
     body {
         background-image: url(images/space.svg);
     }
+    
+    .step.mySlide {
+      padding:10px;
+      width:100vw;
+      height:100vh;
+    }
+    
+    .step.noFade {
+      opacity: 1;
+    }
+    
+    .mySlide * {
+      top: 50vh;
+      left: 50vw;
+      position:absolute;
+    }
+    .myImage {
+      height:100%;
+      transform: translateX(-50%) translatey(-50%);
+    }
