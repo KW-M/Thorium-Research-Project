@@ -15,6 +15,9 @@
     .step.noFade {
       opacity: 1;
     }
+    .step.fade:not(.active) {
+      opacity: 0;
+    }
     
     .mySlide * {
       top: 50vh;
